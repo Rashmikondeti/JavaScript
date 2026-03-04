@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //Task1
+        var a = 10;
+        var b = "10";
+        console.log(a);
+        console.log(b);
+        console.log("a == b  :", a == b);   
+        console.log("a === b :", a === b);  
+        console.log("a != b  :", a != b);   
+        console.log("a !== b :", a !== b);  
+        console.log("a > b   :", a > b);    
+        console.log("a < b   :", a < b);    
+        console.log("a >= b  :", a >= b);   
+        console.log("a <= b  :", a <= b); 
+        //Task2
+        var number = 7;
+        var age = 16;
+
+        var result = (number % 2 === 0) ? "Even" : "Odd";
+        var ageResult = (age >= 18) ? "Adult" : "Minor";
+
+        console.log("The number is:", result);
+        console.log("Age:", ageResult);
+        //Task3
+        var score = 82; 
+        var grade =
+            (score >= 90) ? "A" :
+            (score >= 75) ? "B" :
+            (score >= 60) ? "C" :
+            (score >= 45) ? "D" : "F";
+        console.log("Grade:", grade);
+        //Task4
+        var temperature = 25;
+        var result =
+            (temperature > 30) ? "Hot" :
+            (temperature >= 20 && temperature <= 30) ? "Warm" :
+            (temperature >= 10 && temperature <= 19) ? "Cool" :
+            "Cold";
+        console.log("Category:", result);
+        //Task5
+        var age = 45;
+        var ageGroup =
+            (age >= 0 && age <= 12) ? "Child" :
+            (age >= 13 && age <= 19) ? "Teen" :
+            (age >= 20 && age <= 64) ? "Adult" :
+            "Senior";
+        console.log("Age Group:", ageGroup);
+    </script>
+</body>
+</html>
