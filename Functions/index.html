@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//1
+      function greet(name){
+        return "hello  "+name+" !";
+      }
+    console.log(greet("Surekha"));
+    console.log(greet("Sushma"));
+    console.log(greet("Bhanu"));
+
+
+//2
+    function sum(a,b){
+        return a+b;
+    }
+    console.log(sum(20,30));
+
+
+//3    
+ function square(num){
+    return num*num;
+ }
+console.log(square(5));
+console.log(square(4));
+console.log(square(6));
+
+ //4
+
+function average(arr){
+    let sum=0;
+    for(let i=0;i<arr.length;i++){
+        sum+=arr[i];
+    }
+    return sum/arr.length;
+
+}
+console.log(average([2,6,7]));
+console.log(average([22,54,74]));
+console.log(average([12,76,91]));
+
+//5
+function vowel(str){
+  var vowels="aeiouAEIOU";
+  for(var i=0;i<str.length;i++){
+    if(vowels.includes(str[i])){
+        return true;
+    }
+  }
+  return false;
+}
+console.log(vowel("ccccc"));
+
+    
+    
+
+    </script>
+</body>
+</html>
